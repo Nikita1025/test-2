@@ -66,9 +66,10 @@ export const FormPage = () => {
                                    minValue='2,654 ₪' maxValue='51,130 ₪' variant='payment'
                                    text='Увеличьте ежемесячный платеж и переплачивайте меньше'/>
                         </div>
-                        <div className='border-t py-8 border-stroke flex justify-end pr-37'>
-                            <Button disabled={false} type={'submit'} title='Продолжить'/>
-                        </div>
+
+                    </div>
+                    <div className='border-t py-8 border-stroke flex justify-end pr-37'>
+                        <Button disabled={false} type={'submit'} title='Продолжить'/>
                     </div>
                 </div>
 
