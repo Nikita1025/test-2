@@ -42,12 +42,8 @@ export const Slider = ({max, min, variant, title, text, minValue, maxValue}: Sli
                     className="slider w-full border-none  accent-accent-primary h-1"
                 />
                 {minMaxValue && <div className="mt-1.5 flex justify-between	h-5	mb-18 ">
-                        <span className='text-primary mr-1 text-sm font-normal	 font-inter'>{minValue}
-                            {/*{variant === 'payment' && <span className='text-xxs pl-1'>₪</span>}*/}
-                           </span>
-                    <span className='text-primary mr-1 text-sm font-normal	 font-inter'>{maxValue}
-                        {/*{variant === 'payment' && <span className='text-xxs pl-1'>₪</span>}*/}
-                    </span>
+                        <span className='text-primary mr-1 text-sm font-normal	 font-inter'>{minValue}</span>
+                    <span className='text-primary mr-1 text-sm font-normal	 font-inter'>{maxValue}</span>
                 </div>}
 
                 {infoWindow && <div className='flex py-1.5 px-3	bg-base-secondary rounded'>
