@@ -7,7 +7,8 @@ export type ButtonProps<T extends ElementType = 'button'> = {
 const defaultStyle = 'text-disabled text-base font-medium font-inter';
 const defaultStyleButton = 'py-3 w-61 px-4 text-center	bg-button-bg rounded-lg	';
 const activeStyle = 'text-text-button text-base font-medium font-inter';
-const activeStyleButton = 'py-3 w-61 px-4 text-center	bg-accent-primary rounded-lg';
+const activeStyleButton =
+  'py-3 xl:w-61 w-full lg:w-61 px-4 text-center	bg-accent-primary rounded-lg';
 
 export const Button = <T extends ElementType = 'button'>(
   props: ButtonProps<T> & Omit<ComponentPropsWithoutRef<T>, keyof ButtonProps<T>>,

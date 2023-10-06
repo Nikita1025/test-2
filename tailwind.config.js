@@ -3,9 +3,9 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     screens: {
-      xl: '1440px',
-      md: '1024px',
-      mn: '390px',
+      xl: '1280px',
+      lg: '768px',
+      md: '640px',
     },
     fontFamily: {
       roboto: ['Roboto', 'sans-serif'],
@@ -28,6 +28,7 @@ module.exports = {
       },
       fontSize: {
         xxs: '10px',
+        '3.1xl': '31px',
       },
       colors: {
         'accent-primary': '#FBE54D',
