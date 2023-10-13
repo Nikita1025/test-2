@@ -11,7 +11,7 @@ import { OptionType } from '../../store/types';
 import { SearchInput } from './searchInput';
 
 type SelectType = {
-  text: string;
+  text: any;
   options: OptionType[];
   defaultValue: string;
   field: any;
